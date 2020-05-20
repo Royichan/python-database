@@ -1,0 +1,10 @@
+Environment ----- python-db
+
+install : mysql-connector(integrated to default python)
+	OR
+install : pip install pymysql
+
+
+Table-Structure
+
+Person_Name KL  NUM  A-Z 4-NUM  Time  IN  OUT
