@@ -16,6 +16,7 @@ def main():
 
     result = cur.fetchall()
     for row in result:
+        #path to destination
         filename = os.path.join('K:/result/',str(row[0])+'.jpeg')
         img = row[1]
         print(type(img))
